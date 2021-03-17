@@ -2,7 +2,7 @@ resource "aws_instance" "web-server-instance" {
   ami               = "ami-096cb92bb3580c759"
   instance_type     = "t2.medium"
   availability_zone = "eu-west-2a"
-  key_name          = "AWS"
+  key_name          = "aws"
 
   network_interface {
     device_index         = 0
